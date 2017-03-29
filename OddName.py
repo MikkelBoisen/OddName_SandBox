@@ -4,11 +4,9 @@ Then print every second letter in the name. Hint: use a for loop, the range func
 """
 
 name = input("Enter your name")
-print("Hello", name)
 if not name:
     print("You did not enter a name")
 else:
-    print("Good job")
-#did not do the for-loop
-for name in range(1,6,2):
-    print(name)
+    print("Hello",name)
+name_1 = name[1::2]
+print(name_1)
